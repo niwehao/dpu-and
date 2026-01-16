@@ -1,5 +1,5 @@
 #include <linux/mm.h>
-#include <linux/dpu_compact.h>
+#include "dpu_compact.h"
 #include <linux/compaction.h>
 #include "internal.h"
 enum compact_result try_dpu_compact_zone(struct zone *zone,

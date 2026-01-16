@@ -1,4 +1,4 @@
-#include <linux/dpu_compact.h>
+#include "dpu_compact.h"
 static int dpu_hw_compact_execute(struct dpu_compact_region *region)
 {
 	struct dpu_fragment *frag;
